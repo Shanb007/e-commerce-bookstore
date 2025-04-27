@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/ShantnuBookstoreReactOrder/static/css/main.3b86ac3d.css",
+    "main.js": "/ShantnuBookstoreReactOrder/static/js/main.281ff112.js",
+    "static/js/453.419a5d54.chunk.js": "/ShantnuBookstoreReactOrder/static/js/453.419a5d54.chunk.js",
+    "static/media/TheCeletialLibraryBooks.png": "/ShantnuBookstoreReactOrder/static/media/TheCeletialLibraryBooks.10afba018c1a1ac4b9f7.png",
+    "static/media/classics.jpg": "/ShantnuBookstoreReactOrder/static/media/classics.3eb59cfce62548ebfd19.jpg",
+    "static/media/TheCelestialLibrary.png": "/ShantnuBookstoreReactOrder/static/media/TheCelestialLibrary.ddff6c2e6abaed5ecca1.png",
+    "index.html": "/ShantnuBookstoreReactOrder/index.html",
+    "main.3b86ac3d.css.map": "/ShantnuBookstoreReactOrder/static/css/main.3b86ac3d.css.map",
+    "main.281ff112.js.map": "/ShantnuBookstoreReactOrder/static/js/main.281ff112.js.map",
+    "453.419a5d54.chunk.js.map": "/ShantnuBookstoreReactOrder/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b86ac3d.css",
+    "static/js/main.281ff112.js"
+  ]
+}
