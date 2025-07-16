@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/ShantnuBookstoreReact/static/css/main.0eb20252.css",
+    "main.js": "/ShantnuBookstoreReact/static/js/main.fc7931a1.js",
+    "static/js/453.419a5d54.chunk.js": "/ShantnuBookstoreReact/static/js/453.419a5d54.chunk.js",
+    "static/media/TheCeletialLibraryBooks.png": "/ShantnuBookstoreReact/static/media/TheCeletialLibraryBooks.10afba018c1a1ac4b9f7.png",
+    "static/media/kissMeChristmas.png": "/ShantnuBookstoreReact/static/media/kissMeChristmas.5e114726a38d26525487.png",
+    "static/media/etmy.png": "/ShantnuBookstoreReact/static/media/etmy.106db7dc4723882dcb0e.png",
+    "static/media/EverythingIsTuberculosisCover.png": "/ShantnuBookstoreReact/static/media/EverythingIsTuberculosisCover.688cbf885930f2597492.png",
+    "static/media/ewus.png": "/ShantnuBookstoreReact/static/media/ewus.647a07c410de7e4008a3.png",
+    "static/media/christmasCountdown.png": "/ShantnuBookstoreReact/static/media/christmasCountdown.a22335a3e424d9fa6cc1.png",
+    "static/media/bookLovers.png": "/ShantnuBookstoreReact/static/media/bookLovers.a7856a2c846af91bb693.png",
+    "static/media/isSheReallyGOWhim.png": "/ShantnuBookstoreReact/static/media/isSheReallyGOWhim.c8b01d348b16374d2cc8.png",
+    "static/media/typesOfWealth.png": "/ShantnuBookstoreReact/static/media/typesOfWealth.b8f0d3a75f215cabe071.png",
+    "static/media/classics.jpg": "/ShantnuBookstoreReact/static/media/classics.3eb59cfce62548ebfd19.jpg",
+    "static/media/tyranny.png": "/ShantnuBookstoreReact/static/media/tyranny.1d12975cbd50d6ef27e3.png",
+    "static/media/TheCelestialLibrary.png": "/ShantnuBookstoreReact/static/media/TheCelestialLibrary.ddff6c2e6abaed5ecca1.png",
+    "index.html": "/ShantnuBookstoreReact/index.html",
+    "main.0eb20252.css.map": "/ShantnuBookstoreReact/static/css/main.0eb20252.css.map",
+    "main.fc7931a1.js.map": "/ShantnuBookstoreReact/static/js/main.fc7931a1.js.map",
+    "453.419a5d54.chunk.js.map": "/ShantnuBookstoreReact/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0eb20252.css",
+    "static/js/main.fc7931a1.js"
+  ]
+}
