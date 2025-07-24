@@ -1,0 +1,254 @@
+header {
+    background-color: #2E2F2D;
+    height: 10.2%;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.header-container {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.logo img.celestialLibraryLogo {
+    width: 140px;
+    border-radius: 3px;
+}
+
+.search-wrapper {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 0 1rem;
+    max-width: 450px;
+    width: 60%;
+    height: 27px;
+    margin: 0 0rem;
+    margin-left: 11%;
+}
+
+.search-left {
+    display: flex;
+    align-items: center;
+    gap: 1.9rem;
+}
+
+.search-category {
+    color: #333;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.divider {
+    width: 1px;
+    background-color: hsl(0, 0%, 0%);
+    height: 80%;
+    margin: 0 0.8rem;
+}
+
+.search-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 0.9rem;
+    color: #333;
+    line-height: 1.4;
+}
+
+.filter-icon, .search-icon {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.nav-items {
+    margin-left: 3%;
+    margin-right: 0%;
+    width: 42%;
+    display: flex;
+    gap: 1.1rem;
+    align-items: center;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: #fff;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.language{
+    margin-left: 13%;
+}
+
+.user{
+    margin-left: 11%;
+}
+
+.cart{
+    margin-left: 2%;
+}
+
+.category-dropdown select {
+    background-color: #2E2F2D;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 0.9rem;
+    cursor: pointer;
+    width: 90px;
+}
+
+.language-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.person-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.filter-icon{
+    width: 13px;
+    height: 13px;
+}
+
+.cart {
+    position: relative;
+}
+
+.cart img {
+    width: 25px;
+    height: 25px;
+}
+
+.cart-badge {
+    position: absolute;
+    top: -8px;
+    right: 30px;
+    background-color: #4B82F2;
+    color: #fff;
+    font-size: 0.65rem;
+    border-radius: 50%;
+    padding: 2px 5px;
+}
+
+
+.nav-pill {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    background-color: rgba(180, 176, 176, 0.38);
+    color: #fff;
+    border-radius: 999px;
+    padding: 0.4rem 0.8rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.nav-pill select {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border-radius: 999px;
+
+}
+
+.logout-button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 0.8rem;
+    cursor: pointer;
+    border-radius: 999px;
+}
+
+.logout-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.logout-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.1rem;
+    margin-left: 7%;
+}
+
+.login-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.nav-item category {
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.nav-item.category a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-item.category:hover {
+    background-color: #86a9d7;
+}
+
+.nav-item.category.active {
+    background-color: #3A3960;
+    color: #fff;
+}
+.categories-button {
+    background-color: #202020;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Inter', sans-serif;
+}
+
+.categories-button:hover {
+    background-color: #CCCCCC;
+    cursor: pointer;
+}
+
+.categories-button.active {
+    background-color: rgba(180, 176, 176, 0.38);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.categories-button:hover,
+.categories-button.active:hover {
+    background-color: #CCCCCC;
+    color: #000000;
+    cursor: pointer;
+}
+
+.cart-text{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}

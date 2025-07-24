@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.body-app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.body-container {
+    flex: 1;
+    background-color: #D7D6D6;
+}
