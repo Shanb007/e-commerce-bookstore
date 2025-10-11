@@ -10,11 +10,19 @@ import java.io.IOException;
 @Provider
 public class CorsFilter implements ContainerResponseFilter {
 
+    private static final String ALLOWED_ORIGIN;
+
+    static {
+        // Read from environment variable, default to localhost for development
+        String origin = System.getenv("CORS_ALLOWED_ORIGIN");
+        ALLOWED_ORIGIN = (origin != null && !origin.isEmpty()) ? origin : "http://localhost:3000";
+    }
+
     @Override
     public void filter(ContainerRequestContext requestContext,
                        ContainerResponseContext responseContext) throws IOException {
         responseContext.getHeaders().add(
-                "Access-Control-Allow-Origin", "http://localhost:3000");
+                "Access-Control-Allow-Origin", ALLOWED_ORIGIN);
         responseContext.getHeaders().add(
                 "Access-Control-Allow-Credentials", "true");
         responseContext.getHeaders().add(

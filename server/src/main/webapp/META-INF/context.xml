@@ -6,8 +6,8 @@
               maxTotal="4"
               maxIdle="0"
               maxWaitMillis="10000"
-              username="shantnub"
-              password="9158"
+              username="${DB_USERNAME}"
+              password="${DB_PASSWORD}"
               driverClassName="com.mysql.cj.jdbc.Driver"
               removeAbandonedOnBorrow="true"
               removeAbandonedOnMaintenance="true"
@@ -15,5 +15,5 @@
               logAbandoned="true"
               minEvictableIdleTimeMillis="300000"
               timeBetweenEvictionRunsMillis="300000"
-              url="jdbc:mysql://webdev.cs.vt.edu:3306/ShantnuBookstoreDB"/>
+              url="${DB_URL}"/>
 </Context>
